@@ -1,16 +1,11 @@
-[tool.poetry]
+[project]
 name = "jaso"
 version = "0.1.0"
-description = ""
-authors = ["Hansol-Lim <molmoty@gmail.com>"]
+description = "Add your description here"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.11"
-watchdog = "^4.0.0"
-rumps = "^0.4.0"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.12"
+dependencies = [
+    "pyqt6>=6.7.1",
+    "rumps>=0.4.0",
+    "watchdog>=5.0.3",
+]
